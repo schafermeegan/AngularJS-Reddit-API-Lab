@@ -24,7 +24,7 @@ function RedditFeed(RedditService, $q) {
                 let childObj = {
                     title: baby.data.title, 
                     img: baby.data.thumbnail,
-                    permalink: baby.data.permalink
+                    permalink: baby.data.url
                 }
                 ctrl.feed.push(childObj);
 
